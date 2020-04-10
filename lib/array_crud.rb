@@ -36,8 +36,8 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  my_array = [" ", " ", " ", nil]
-  my_array[-1]
+  my_array = [" ", " ", " ", " "]
+  my_array.pop[-1]
 end
 
 def update_element_from_index(array, index_number, element)
